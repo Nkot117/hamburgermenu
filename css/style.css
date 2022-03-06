@@ -87,3 +87,30 @@ main {
 .overlay.show li:nth-child(3) {
     transition-delay: 0.3s;
 }
+
+.pc-menu {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .pc-menu {
+        display: block;
+        margin-left: auto;
+    }
+    .pc-menu ul {
+        display: flex;
+        list-style-type: none;
+    }
+    .pc-menu a {
+        display: block;
+        width: 100px;
+        line-height: 64px;
+        text-align: center;
+    }
+    .pc-menu a:hover {
+        background-color: azure;
+    }
+    .sp-menu {
+        display: none;
+    }
+}
