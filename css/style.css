@@ -25,6 +25,10 @@ header h1 {
     margin-left: auto;
 }
 
+.sp-menu #open.hide {
+    display: none;
+}
+
 main {
     padding: 0 16px;
 }
@@ -56,4 +60,9 @@ main {
 
 .overlay li {
     margin-top: 20px;
+}
+
+.overlay.show {
+    opacity: 1;
+    pointer-events: auto;
 }
